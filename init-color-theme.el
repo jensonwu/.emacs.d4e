@@ -1,0 +1,6 @@
+(add-to-list 'load-path "~/.emacs.d/deps/color-theme")
+(require 'color-theme)
+(color-theme-initialize)
+;(color-theme-select)
+;(color-theme-dark-blue2)
+(color-theme-classic)
